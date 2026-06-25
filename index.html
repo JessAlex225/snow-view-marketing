@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Snow View — La plateforme créative dédiée aux créateurs de contenu africains. Partagez, découvrez et monétisez votre créativité." />
+  <title>Snow View — La Plateforme des Créateurs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a class="nav-logo" href="index.html">
+      <span class="dot"></span>
+      Snow View
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="features.html">Fonctionnalités</a></li>
+      <li><a href="signup.html">S'inscrire</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="signup.html" class="nav-cta">Rejoindre →</a></li>
+    </ul>
+    <div class="nav-mobile-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="snow-canvas"></canvas>
+
+    <div class="hero-eyebrow">Née en Afrique · Made for Creators</div>
+
+    <h1>
+      La plateforme qui<br />
+      <span class="accent-text">libère ta créativité</span>
+    </h1>
+
+    <p class="hero-sub">
+      Snow View réunit créateurs visuels, podcasteurs et auteurs dans un espace pensé pour partager, grandir et monétiser — sans frontières.
+    </p>
+
+    <div class="hero-actions">
+      <a href="signup.html" class="btn-primary">
+        Créer mon compte gratuit →
+      </a>
+      <a href="features.html" class="btn-secondary">
+        Découvrir les fonctionnalités
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num" data-count="50" data-suffix="K+">0</div>
+        <div class="stat-label">Créateurs actifs</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="12" data-suffix=" pays">0</div>
+        <div class="stat-label">Pays couverts</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="2" data-suffix=".2">0</div>
+        <div class="stat-label">Version actuelle</div>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      Scroll
+    </div>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="overview">
+    <div class="overview-inner">
+      <!-- Visual mockup -->
+      <div class="overview-visual fade-up">
+        <div class="app-mockup">
+          <div class="mockup-header">
+            <div class="mockup-dot" style="background:#00B0FF;"></div>
+            <div class="mockup-dot" style="background:#7B2FFF;"></div>
+            <div class="mockup-dot" style="background:#ff4d6d;"></div>
+          </div>
+          <div class="mockup-feed">
+            <div class="feed-post">
+              <div class="post-avatar"></div>
+              <div class="post-lines">
+                <div class="post-line short"></div>
+                <div class="post-line med"></div>
+              </div>
+              <div class="post-image-thumb" style="background:linear-gradient(135deg,#00B0FF,#7B2FFF);"></div>
+            </div>
+            <div class="feed-post">
+              <div class="post-avatar" style="background:linear-gradient(135deg,#7B2FFF,#ff4d6d);"></div>
+              <div class="post-lines">
+                <div class="post-line med"></div>
+                <div class="post-line short"></div>
+              </div>
+              <div class="post-image-thumb" style="background:linear-gradient(135deg,#7B2FFF,#00B0FF);"></div>
+            </div>
+            <div class="feed-post">
+              <div class="post-avatar" style="background:linear-gradient(135deg,#ff4d6d,#ffb700);"></div>
+              <div class="post-lines">
+                <div class="post-line short"></div>
+                <div class="post-line med"></div>
+              </div>
+              <div class="post-image-thumb" style="background:linear-gradient(135deg,#00B0FF,#1a1a2e);"></div>
+            </div>
+            <div class="feed-post">
+              <div class="post-avatar" style="background:linear-gradient(135deg,#00c9a7,#00B0FF);"></div>
+              <div class="post-lines">
+                <div class="post-line med"></div>
+                <div class="post-line short"></div>
+              </div>
+              <div class="post-image-thumb" style="background:linear-gradient(135deg,#7B2FFF,#ff4d6d);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="fade-up delay-2">
+        <span class="section-label">Présentation</span>
+        <h2 class="section-title">Un réseau social pensé <em>pour toi</em></h2>
+        <p class="section-sub">
+          Snow View est bien plus qu'un réseau social. C'est un écosystème créatif où photos, vidéos, podcasts et textes coexistent dans un feed fluide et intuitif — conçu par des Africains, pour le monde entier.
+        </p>
+        <br />
+        <p class="section-sub" style="margin-top:0.75rem;">
+          Que tu sois photographe à Abidjan, podcasteur à Dakar ou vidéaste à Nairobi, Snow View te donne les outils pour construire ta communauté et monétiser ta passion dès aujourd'hui.
+        </p>
+        <br />
+        <a href="features.html" class="btn-secondary" style="margin-top:1.5rem;display:inline-flex;">
+          Voir toutes les fonctionnalités →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES PREVIEW -->
+  <section class="features-preview">
+    <div class="features-preview-inner">
+      <div class="text-center fade-up">
+        <span class="section-label">Ce que tu peux faire</span>
+        <h2 class="section-title">Tout ce dont un créateur a besoin</h2>
+        <p class="section-sub">Des outils puissants, une interface simple, une communauté engagée.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="card fade-up delay-1">
+          <div class="card-icon icon-blue">📸</div>
+          <h3>Partage Visuel</h3>
+          <p>Publie des photos et galeries en haute qualité. Ton contenu mérite d'être vu dans toute sa splendeur.</p>
+        </div>
+        <div class="card fade-up delay-2">
+          <div class="card-icon icon-violet">🎵</div>
+          <h3>Audio & Podcast</h3>
+          <p>Héberge et partage tes épisodes directement sur la plateforme. Ton audience t'écoute où qu'elle soit.</p>
+        </div>
+        <div class="card fade-up delay-3">
+          <div class="card-icon icon-blue">🎬</div>
+          <h3>Vidéo & Shorts</h3>
+          <p>Des formats courts ou longs, pour raconter tes histoires comme tu l'entends — sans compression excessive.</p>
+        </div>
+        <div class="card fade-up delay-1">
+          <div class="card-icon icon-violet">💰</div>
+          <h3>Monétisation</h3>
+          <p>Génère des revenus grâce à tes abonnés premium, dons et partenariats de marque intégrés.</p>
+        </div>
+        <div class="card fade-up delay-2">
+          <div class="card-icon icon-blue">🌍</div>
+          <h3>Communauté Locale</h3>
+          <p>Connecte-toi avec d'autres créateurs de ta ville, ton pays, ton continent. Le local, à portée mondiale.</p>
+        </div>
+        <div class="card fade-up delay-3">
+          <div class="card-icon icon-violet">✍️</div>
+          <h3>Articles & Textes</h3>
+          <p>Publie des essais, threads et histoires longues pour partager tes idées avec profondeur.</p>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:3rem;" class="fade-up">
+        <a href="features.html" class="btn-primary">Explorer toutes les fonctionnalités →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="social-proof">
+    <div class="proof-inner">
+      <div class="text-center fade-up">
+        <span class="section-label">Ils nous font confiance</span>
+        <h2 class="section-title">Ce que disent nos créateurs</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-up delay-1">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Snow View a complètement changé ma façon de partager mon travail. L'interface est propre, rapide, et ma communauté grandit chaque semaine."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AK</div>
+            <div>
+              <div class="author-name">Ama Kofi</div>
+              <div class="author-role">Photographe · Accra, Ghana</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up delay-2">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"La fonctionnalité podcast est incroyable. Je publie mes épisodes directement depuis l'app et mes auditeurs peuvent interagir en temps réel."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#7B2FFF,#00B0FF);">MD</div>
+            <div>
+              <div class="author-name">Moussa Diallo</div>
+              <div class="author-role">Podcasteur · Dakar, Sénégal</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up delay-3">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"Enfin une plateforme qui comprend les créateurs africains ! La monétisation m'a permis de vivre pleinement de ma passion en moins de 6 mois."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background:linear-gradient(135deg,#ff4d6d,#7B2FFF);">NK</div>
+            <div>
+              <div class="author-name">Nafissatou K.</div>
+              <div class="author-role">Vidéaste · Abidjan, Côte d'Ivoire</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner fade-up">
+    <h2>Prêt à rejoindre la communauté ?</h2>
+    <p>Des milliers de créateurs t'attendent déjà sur Snow View. Crée ton compte en moins de 2 minutes.</p>
+    <div class="cta-actions">
+      <a href="signup.html" class="btn-primary">Créer mon compte →</a>
+      <a href="contact.html" class="btn-secondary">Contacter l'équipe</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:0.75rem;">
+            <span class="dot"></span> Snow View
+          </div>
+          <p>La plateforme créative née en Afrique, ouverte au monde. Partage, découvre et monétise ta créativité.</p>
+          <div class="footer-social">
+            <div class="social-btn">𝕏</div>
+            <div class="social-btn">in</div>
+            <div class="social-btn">▶</div>
+            <div class="social-btn">📷</div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Produit</h4>
+          <ul>
+            <li><a href="features.html">Fonctionnalités</a></li>
+            <li><a href="signup.html">S'inscrire</a></li>
+            <li><a href="https://snowview.online" target="_blank">Ouvrir l'app</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Entreprise</h4>
+          <ul>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">CGU</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Snow View. Tous droits réservés.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Confidentialité</a>
+          <a href="#">CGU</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

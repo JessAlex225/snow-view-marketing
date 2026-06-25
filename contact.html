@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contactez l'équipe Snow View pour toute question, partenariat ou support." />
+  <title>Contact — Snow View</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a class="nav-logo" href="index.html">
+      <span class="dot"></span>
+      Snow View
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="features.html">Fonctionnalités</a></li>
+      <li><a href="signup.html">S'inscrire</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="signup.html" class="nav-cta">Rejoindre →</a></li>
+    </ul>
+    <div class="nav-mobile-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero fade-up">
+    <span class="section-label">Contact</span>
+    <h1 class="section-title" style="font-size:clamp(2rem,5vw,3.5rem);">
+      On est là pour t'aider 👋
+    </h1>
+    <p class="section-sub" style="margin:0 auto;">
+      Une question, un partenariat, un bug à signaler ? L'équipe Snow View te répond sous 24h.
+    </p>
+  </div>
+
+  <!-- CONTACT CONTENT -->
+  <div class="contact-content">
+
+    <!-- LEFT: Info -->
+    <div class="fade-up">
+      <h2>Parlons de ton projet</h2>
+      <p>
+        Que tu sois créateur, marque, journaliste ou simplement curieux, nous sommes toujours ravis d'échanger. N'hésite pas à nous écrire !
+      </p>
+
+      <div class="contact-methods">
+        <div class="contact-method">
+          <div class="method-icon">📧</div>
+          <div class="method-text">
+            <h4>Email</h4>
+            <span>contact@snowview.online</span>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="method-icon">🌐</div>
+          <div class="method-text">
+            <h4>Plateforme</h4>
+            <span><a href="https://snowview.online" target="_blank" style="color:var(--accent);">snowview.online</a></span>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="method-icon">⏱️</div>
+          <div class="method-text">
+            <h4>Temps de réponse</h4>
+            <span>Moins de 24h en semaine</span>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="method-icon">🌍</div>
+          <div class="method-text">
+            <h4>Basé en</h4>
+            <span>Afrique — Présence dans 12 pays</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ rapide -->
+      <div style="margin-top:2.5rem;">
+        <h3 style="font-family:var(--font-display);font-size:1rem;font-weight:700;margin-bottom:1rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.05em;">Questions fréquentes</h3>
+        <div style="display:flex;flex-direction:column;gap:0.75rem;">
+          <div style="padding:1rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);">
+            <div style="font-size:0.875rem;font-weight:600;margin-bottom:0.35rem;">Snow View est-il gratuit ?</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Oui ! L'accès de base est 100% gratuit. Le plan Pro débloque la monétisation avancée.</div>
+          </div>
+          <div style="padding:1rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);">
+            <div style="font-size:0.875rem;font-weight:600;margin-bottom:0.35rem;">Comment puis-je signaler un bug ?</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Utilise le formulaire ci-contre en sélectionnant "Support technique". Notre équipe traite les bugs en priorité.</div>
+          </div>
+          <div style="padding:1rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);">
+            <div style="font-size:0.875rem;font-weight:600;margin-bottom:0.35rem;">Puis-je proposer un partenariat marque ?</div>
+            <div style="font-size:0.825rem;color:var(--text-muted);">Absolument. Sélectionne "Partenariat / Marque" dans le formulaire et décris ton projet.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Form -->
+    <div class="contact-form-wrap fade-up delay-2">
+      <div id="contact-form-inner">
+        <div class="form-title">Envoyer un message</div>
+        <p class="form-sub">Tous les champs marqués * sont obligatoires.</p>
+
+        <form id="contact-form" novalidate>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="form-group">
+              <label for="c-first">Prénom *</label>
+              <input type="text" id="c-first" name="first_name" placeholder="Ama" required />
+            </div>
+            <div class="form-group">
+              <label for="c-last">Nom *</label>
+              <input type="text" id="c-last" name="last_name" placeholder="Kofi" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="c-email">Email *</label>
+            <input type="email" id="c-email" name="email" placeholder="toi@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="c-subject">Sujet *</label>
+            <select id="c-subject" name="subject" required>
+              <option value="">Choisir un sujet…</option>
+              <option value="info">Demande d'information générale</option>
+              <option value="support">Support technique</option>
+              <option value="partnership">Partenariat / Marque</option>
+              <option value="press">Presse / Média</option>
+              <option value="creator">Programme Créateur Pro</option>
+              <option value="other">Autre</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="c-message">Message *</label>
+            <textarea id="c-message" name="message" placeholder="Décris ta demande en quelques mots…" required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">
+            Envoyer le message →
+          </button>
+          <p class="form-note">Nous respectons ta vie privée. Tes données ne seront jamais revendues.</p>
+        </form>
+      </div>
+
+      <!-- Success state -->
+      <div id="contact-success" class="form-success">
+        <div class="success-icon">✅</div>
+        <h3>Message envoyé !</h3>
+        <p>Merci de nous avoir contactés. Notre équipe te répondra dans les 24 heures.</p>
+        <a href="index.html" class="btn-secondary" style="display:inline-flex;margin-top:1.5rem;">Retour à l'accueil</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom:0.75rem;">
+            <span class="dot"></span> Snow View
+          </div>
+          <p>La plateforme créative née en Afrique, ouverte au monde.</p>
+          <div class="footer-social">
+            <div class="social-btn">𝕏</div>
+            <div class="social-btn">in</div>
+            <div class="social-btn">▶</div>
+            <div class="social-btn">📷</div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Produit</h4>
+          <ul>
+            <li><a href="features.html">Fonctionnalités</a></li>
+            <li><a href="signup.html">S'inscrire</a></li>
+            <li><a href="https://snowview.online" target="_blank">Ouvrir l'app</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Entreprise</h4>
+          <ul>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Légal</h4>
+          <ul>
+            <li><a href="#">Confidentialité</a></li>
+            <li><a href="#">CGU</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Snow View. Tous droits réservés.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Confidentialité</a>
+          <a href="#">CGU</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
